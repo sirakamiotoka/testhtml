@@ -2,7 +2,7 @@ a {
     font-size: 18px;
 }
 body {
-    background-image: url(../image/back.png);
+    background-image: url("../image/back.png");
     background-size: cover;
 }
 .ziko {
