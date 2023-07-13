@@ -4,6 +4,7 @@ a {
 body {
     background-image: url("../image/back.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .ziko {
     background: linear-gradient(rgb(4, 202, 4), rgb(9, 139, 31));
