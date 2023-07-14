@@ -2,7 +2,7 @@ a {
     font-size: 18px;
 }
 body {
-    background-image: url("https://github.com/sirakamiotoka/testhtml/blob/main/image/back.png");
+    background-image: url("https://github.com/sirakamiotoka/testhtml/blob/main/image/back.png?raw=true");
     background-size: cover;
     background-repeat: no-repeat;
 }
