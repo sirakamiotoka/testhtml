@@ -42,13 +42,21 @@ body {
 }
 .link{
     font-size: 20px;
-    color: blue;
-    background: linear-gradient( #d8db047c,  #7577053d);
+    position: relative;
+    color: rgb(4, 52, 211);
+    background: linear-gradient( #fafd227c,  #c2c5003d);
     border: rgb(109, 72, 3) solid 1.5px;
     border-bottom: rgba(100, 110, 6, 0.3) 3pt solid;
     border-left: rgba(100, 110, 6, 0.3) 3pt solid;
-
+    transition: all 0.2s ease;
 }
+
+
+.pushdown:hover {
+    background-color: rgba(116, 117, 11, 0.3);
+    color: rgb(228, 243, 255);
+    transform: translateY(4px);
+  }
 
 #wrapper nav {
     position: fixed;
