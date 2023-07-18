@@ -20,6 +20,7 @@ body {
               -1px 0 0 #FFF, 1px 0 0 #FFF;
 }
 .sengen {
+    background: linear-gradient(transparent 30%, #ffff7f67 50%);
     font-size: 42px;
     color: rgb(161, 76, 18);
 }
@@ -33,12 +34,21 @@ body {
     background-color: rgba(255, 255, 255, 0.7);
 }
 .gametitle {
+    background: linear-gradient(transparent 10%, #e98c6734 50%); 
     font-size: 40px;
     border-bottom: 8px solid;
     padding-top: 15px;
     color: rgb(153, 118, 22);
 }
+.link{
+    font-size: 20px;
+    color: blue;
+    background: linear-gradient( #d8db047c,  #7577053d);
+    border: rgb(109, 72, 3) solid 1.5px;
+    border-bottom: rgba(100, 110, 6, 0.3) 3pt solid;
+    border-left: rgba(100, 110, 6, 0.3) 3pt solid;
 
+}
 
 #wrapper nav {
     position: fixed;
